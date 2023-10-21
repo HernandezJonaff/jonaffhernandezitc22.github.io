@@ -1,0 +1,93 @@
+body{
+  background-color:  #0C0908;
+  }
+div.gallery {
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+
+
+}
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+
+.header a.logo {
+color:black;
+  font-size: 30px;
+  font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a.logo:hover {
+  background-color: white;
+  color: lighter purple;
+   font-size: 30px;
+  font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.header a:hover {
+  background-color: black;
+  color: white;
+   font-size: 18px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.header a.active {
+  background-color: white;
+  color: purple;
+}
+
+.header-right {
+  float: right;
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto; 
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%; 
+  padding: 20px; 
+}
+
